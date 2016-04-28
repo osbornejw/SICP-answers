@@ -1,1 +1,3 @@
-
+The program forms an infintie loop, continuously recursing sqrt-iter. 
+This is because Scheme uses applicative order, and must therefore evaluate all clauses.
+This is different from how the special form if works.
